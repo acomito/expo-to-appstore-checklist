@@ -89,3 +89,18 @@ Screenshots. You can generate these using the Simulator and Command+S to take a 
 * Select your Bundle ID.
 * SKU is a unique ID (you pick it). e.g. NameOfApp0.1
 * Click Create
+
+
+### iOS App 1.0 Prepare for Submission
+
+* Choose File > Your iPhone screenshot from the prerequisite section.
+* Click iPad button above screenshot preview.
+* Choose File > Your iPad screenshot from the prerequisite section.
+* Click Save (top right)
+* Description is required.
+* Keywords are required.
+* Support URL is required (your website or github).
+* Ignore "Build" for now and scroll down to "General App Information".
+
+
+BASED ON: https://github.com/alex-wap/app-store
