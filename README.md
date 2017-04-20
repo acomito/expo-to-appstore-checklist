@@ -67,6 +67,8 @@ and the 512x512 is on a top-level json property called icon:
 #### App Store
 * 1024px × 1024px
 
+WARNING, do not have duplicate icons (exact same size, but different name). DOUBLE CHECK ACTUAL SIZE OF ICONS AND DELETE DUPLICATES
+Maybe use https://itunes.apple.com/us/app/prepo/id476533227?mt=12
 
 ### Gather Sceenshots for  App Store
 
@@ -75,3 +77,15 @@ Screenshots. You can generate these using the Simulator and Command+S to take a 
 * REQUIRED one iPhone 7 Plus screenshot.
 * These are the highest resolutions for iPad and iPhone.
 
+
+### iTunes Connect
+
+* Go to iTunes Connect.
+* Go to My Apps.
+* Click the plus button to create a "New iOS App".
+* Select iOS Checkbox.
+* Name field for your New App is permanent after submission. Pick what you want carefully.
+* Select English for "Primary Language".
+* Select your Bundle ID.
+* SKU is a unique ID (you pick it). e.g. NameOfApp0.1
+* Click Create
