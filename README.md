@@ -1,5 +1,11 @@
 # Expo-to-App-Store Checklist
 
+### PREQUESISITES
+
+* you need your apple team ID: https://developer.
+apple.com/account/#/membership)
+* you need your apple username and apple password.
+* you need to turn off 2-factor authentication
 
 ### To start, Open Expo XDE and "Publish" app
 Once published, get the URL and add it as the slug in your exp.json file. This slug will be automatically generated, so just put the very last work of the slug such as rnplay and you will get exp.host/@notbrent/rnplay:
