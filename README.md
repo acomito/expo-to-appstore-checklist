@@ -2,8 +2,7 @@
 
 ### PREQUESISITES
 
-* you need your apple team ID: https://developer.
-apple.com/account/#/membership)
+* you need your apple team ID: https://developer.apple.com/account/#/membership)
 * you need your apple username and apple password.
 * you need to turn off 2-factor authentication
 
