@@ -90,6 +90,10 @@ Screenshots. You can generate these using the Simulator and Command+S to take a 
 * REQUIRED one iPhone 7 Plus screenshot.
 * These are the highest resolutions for iPad and iPhone.
 
+### Waiting for IPA file to download...
+
+* run `exp build:status` to check on status. keep doing this until eventually it will return the URL
+
 
 ### iTunes Connect
 
