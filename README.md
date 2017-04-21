@@ -2,10 +2,10 @@
 
 
 ### To start, Open Expo XDE and "Publish" app
-Once published, get the URL and add it as the slug in your exp.json file:
+Once published, get the URL and add it as the slug in your exp.json file. This slug will be automatically generated, so just put the very last work of the slug such as rnplay and you will get exp.host/@notbrent/rnplay:
 
 ```
-  "slug": "exp.host/@notbrent/rnplay"
+  "slug": "rnplay"
 ```
 
 ### Decide on a iOS config
