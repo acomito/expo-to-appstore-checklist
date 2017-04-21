@@ -1,6 +1,13 @@
 # Expo-to-App-Store Checklist
 
 
+### To start, Open Expo XDE and "Publish" app
+Once published, get the URL and add it as the slug in your exp.json file:
+
+```
+  "slug": "exp.host/@notbrent/rnplay"
+```
+
 ### Decide on a iOS config
 This is set in the exp.json file.
 
