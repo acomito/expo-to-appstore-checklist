@@ -94,6 +94,14 @@ Screenshots. You can generate these using the Simulator and Command+S to take a 
 * run `exp build:status` to check on status. keep doing this until eventually it will return the URL
 
 
+### Test it on fastlane's pilot:
+
+https://github.com/fastlane/fastlane/tree/master/pilot
+
+* go into the directory that holds your ipa file
+* run `fastlane pilot upload`
+* then invite a tester with `fastlane pilot add email@invite.com`
+
 ### iTunes Connect
 
 * Go to iTunes Connect.
