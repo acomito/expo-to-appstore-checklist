@@ -141,6 +141,8 @@ end
 > That’s all we need from Fastlane. Have a look at the Fastlane Docs for more actions and information.
 
 above directions are via [this blog](https://dbanck.svbtle.com/deploying-a-react-native-app-with-fastlane)
+maybe more up-to-date: https://medium.com/react-native-training/fastlane-for-react-native-ios-android-app-devops-8ca85bee614e
+code signing: https://codesigning.guide/
 
 * If the gods are on your side, you should now have fastlane setup 
 * go into the directory that holds your ipa file
