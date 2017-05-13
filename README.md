@@ -152,6 +152,13 @@ code signing: https://codesigning.guide/
 
 Note: When submitting to the iTunes Store, you’ll be asked whether your app uses the advertising identifier (IDFA). Because Expo depends on Segment Analytics, the answer is yes, and you’ll need to check a couple boxes on the Apple submission form. See Segment’s Guide for which specific boxes to fill in.
 
+
+### General TODOs
+
+Decide on app description, keywords, title and categories:
+
+https://developer.apple.com/app-store/product-page/
+
 ### iTunes Connect
 
 * Go to iTunes Connect.
