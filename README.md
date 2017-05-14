@@ -6,8 +6,15 @@
 * you need your apple username and apple password.
 * you need to turn off 2-factor authentication
 
-### To start, Open Expo XDE and "Publish" app
-Once published, get the URL and add it as the slug in your exp.json file. This slug will be automatically generated, so just put the very last work of the slug such as rnplay and you will get exp.host/@notbrent/rnplay:
+
+## STEP 1
+
+### Go to project directory and publish
+
+* go into your app directory
+* go into the exp.json file of your project and put in a slug like "myslug" (The  full slug will be automatically generated, so just put the very last word of the slug such as "myslug" which will be output as exp.host/@notbrent/myslug:)
+* go into your app directory and run `exp start`
+* once that is complete, grab the slug and put it into your exp.json file
 
 ```
   "slug": "rnplay"
