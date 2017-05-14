@@ -96,7 +96,7 @@ Screenshots. You can generate these using the Simulator and Command+S to take a 
 * run `exp build:status` to check on status. keep doing this until eventually it will return the URL
 
 
-### Test it on fastlane's pilot:
+### Test it on fastlane's pilot [SECTION UNDER CONSTRUCTION, MOVE TO NEXT]:
 
 https://github.com/fastlane/fastlane/tree/master/pilot
 
