@@ -130,6 +130,14 @@ hit 1 for yes
 
 Then it will start to build your ipa file
 
+when it is done, you'll see this message and the packager/process will exit/end:
+
+```
+[exp] Building...
+[exp] Build successfully started, it may take a few minutes to complete. Run "exp build:status" to monitor it.
+```
+
+
 ### Waiting for IPA file to download...
 
 * run `exp build:status` to check on status. keep doing this until eventually it will return the URL
