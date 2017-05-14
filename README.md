@@ -11,7 +11,7 @@ TODO
 ## PREQUESISITES
 
 * you need your apple teamID --> [get it here](https://developer.apple.com/account/#/membership)
-* you need your apple username and apple password.
+* you need your apple username and apple password. --> Or signup [here](https://developer.apple.com/register)
 * you need to turn off 2-factor authentication.  --> see [this issue](https://github.com/expo/expo/issues/160)
 * decide on a bundleIdentifier.  --> see [this stackoverflow question](http://stackoverflow.com/questions/11347470/what-does-bundle-identifier-mean-in-the-ios-project)
 
