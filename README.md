@@ -18,7 +18,6 @@
   "slug": "rnplay"
 ```
 * make sure your terminal is in the root directory of your app directory, then run `exp start`
-* once that is complete, grab the slug and put it into your exp.json file
 
 
 ## STEP 2
