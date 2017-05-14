@@ -126,6 +126,8 @@ We need your Apple ID/password to manage certificates and provisioning profiles 
 ? What's your Apple ID?
 ```
 
+Put in your credentials for your apple developer account. [Make sure 2factor auth is turend off](https://github.com/expo/expo/issues/160)
+
 ```
 ? Do you already have a distribution certificate you'd like us to use,
 or do you want us to manage your certificates for you? true
