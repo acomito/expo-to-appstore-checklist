@@ -1,5 +1,13 @@
 # Expo-to-App-Store Checklist
 
+TODO
+
+
+* add directions about adding bundleIdentifer in dev console before going to itunes connect
+* make a not about SKU
+* Finish fastlane steps
+
+
 ## PREQUESISITES
 
 * you need your apple teamID --> [get it here](https://developer.apple.com/account/#/membership)
