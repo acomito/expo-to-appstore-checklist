@@ -259,6 +259,8 @@ https://developer.apple.com/app-store/product-page/
 * choose "deliver app" from the options then click "next"
 * a file picker will open, find you ipa file that you built earlier (via your terminal, in my case the ipa is no in my downloads)
 
+Is your app designed to use cryptography or does it contain or incorporate cryptography? (Select Yes even if your app is only utilizing the encryption available in iOS or macOS.)
+
 Note: When submitting to the iTunes Store, you’ll be asked whether your app uses the advertising identifier (IDFA). Because Expo depends on Segment Analytics, the answer is yes, and you’ll need to check a couple boxes on the Apple submission form. See Segment’s Guide for which specific boxes to fill in.
 
 https://segment.com/docs/sources/mobile/ios/quickstart/#step-5-submitting-to-the-app-store
