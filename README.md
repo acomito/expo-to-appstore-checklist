@@ -253,6 +253,7 @@ Note: When submitting to the iTunes Store, you’ll be asked whether your app us
 * Copyright (your business name) required.
 * Address information is required.
 
-
+* now, if you have not yet, download Apple's [Application Loader 3.0](https://itunesconnect.apple.com/apploader/ApplicationLoader_3.0.dmg)
+* after downloading, open the app and sign in with your apple username and password
 
 BASED ON: https://github.com/alex-wap/app-store
