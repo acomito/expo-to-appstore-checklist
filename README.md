@@ -13,12 +13,13 @@
 
 * go into your app directory
 * go into the exp.json file of your project and put in a slug like "myslug" (The  full slug will be automatically generated, so just put the very last word of the slug such as "myslug" which will be output as exp.host/@notbrent/myslug:)
-* go into your app directory and run `exp start`
-* once that is complete, grab the slug and put it into your exp.json file
-
 ```
   "slug": "rnplay"
 ```
+* make sure your terminal is in the root directory of your app directory, then run `exp start`
+* once that is complete, grab the slug and put it into your exp.json file
+
+
 
 ### Decide on a iOS config
 This is set in the exp.json file.
