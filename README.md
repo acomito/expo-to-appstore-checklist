@@ -246,5 +246,13 @@ Note: When submitting to the iTunes Store, you’ll be asked whether your app us
 * Support URL is required (your website or github).
 * Ignore "Build" for now and scroll down to "General App Information".
 
+### General App Information section
+
+* App Icon > Choose File > Your 1024x1024px icon from prerequisite section.
+* Click edit next to "Rating". Fill out questionnaire. Be careful, it's easier to get approved if you don't select "Made For Kids". Click Done.
+* Copyright (your business name) required.
+* Address information is required.
+
+
 
 BASED ON: https://github.com/alex-wap/app-store
