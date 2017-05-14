@@ -5,6 +5,7 @@
 * you need your apple teamID (https://developer.apple.com/account/#/membership)
 * you need your apple username and apple password.
 * you need to turn off 2-factor authentication
+* decide on a bundleIdentifier. see: http://stackoverflow.com/questions/11347470/what-does-bundle-identifier-mean-in-the-ios-project
 
 
 ## STEP 1
