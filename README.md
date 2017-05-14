@@ -1,78 +1,11 @@
 # Expo-to-App-Store Checklist
 
-### PREQUESISITES
+## PREQUESISITES
 
 * you need your apple teamID --> [get it here](https://developer.apple.com/account/#/membership)
 * you need your apple username and apple password.
 * you need to turn off 2-factor authentication.  --> see [this issue](https://github.com/expo/expo/issues/160)
 * decide on a bundleIdentifier.  --> see [this stackoverflow question](http://stackoverflow.com/questions/11347470/what-does-bundle-identifier-mean-in-the-ios-project)
-
-
-## STEP 1
-
-### Go to project directory and publish
-
-* go into your app directory
-* go into the exp.json file of your project, then add a slug like "myslug" (The  full slug will be automatically generated, so just put the very last word of the slug such as "myslug" which will be output as exp.host/@notbrent/myslug:)
-```
-  "slug": "rnplay"
-```
-* make sure your terminal is in the root directory of your app directory, then run `exp start`
-* that will show a QR code, etc. and you'll see "[exp] Dependency graph loaded.". This means you're done, hit ctrl + C to stop packager
-
-
-## STEP 2
-
-### Decide on a iOS config
-This is set in the exp.json file.
-
-```
-  "ios": {
-    "bundleIdentifier": "identifier",
-    "buildNumber": "1.0.0",
-  }
-```
-
-## STEP 3
-
-### Define a Scheme
-The scheme is used for things like deep-linking. It is defined in your exp.json file.
-
-```
-  "scheme": "myrnapp"
-```
-
-
-## STEP 4
-
-### Gather Icons for Expo
-
-These icons will be used in expo and are added to your exp.json file:
-
-* 48x48 png grayscale with transparency (push notifications)
-* 512x512 png file with transparency (home screen and within the Exponent app)
-
-The 48X48 should be used for push notifications, setup like so:
-
-```
-  "notification": {
-    "icon": "./assets/pathToFile.png", // Must be a .png.
-  }
-```
-and the 512x512 is on a top-level json property called icon:
-
-```
- "icon": "./assets/pathToFile.png", // Must be a .png.
-```
-
-### Configure Splash/Loading Screen
-
-```
-  "loading": {
-    "icon": "./assets/pathToFile.png", // Must be a .png.
-    "backgroundColor": "#34495e",
-  }
-```
 
 ### Gather Icons for App Store
 
@@ -106,6 +39,77 @@ Screenshots. You can generate these using the Simulator and Command+S to take a 
 * REQUIRED one iPad Pro screenshot.
 * REQUIRED one iPhone 7 Plus screenshot.
 * These are the highest resolutions for iPad and iPhone.
+
+### Gather Icons for Expo
+
+These icons will be used in expo and are added to your exp.json file:
+
+* 48x48 png grayscale with transparency (push notifications)
+* 512x512 png file with transparency (home screen and within the Exponent app)
+
+The 48X48 should be used for push notifications, setup like so:
+
+```
+  "notification": {
+    "icon": "./assets/pathToFile.png", // Must be a .png.
+  }
+```
+and the 512x512 is on a top-level json property called icon:
+
+```
+ "icon": "./assets/pathToFile.png", // Must be a .png.
+```
+
+### Configure Splash/Loading Screen
+
+```
+  "loading": {
+    "icon": "./assets/pathToFile.png", // Must be a .png.
+    "backgroundColor": "#34495e",
+  }
+```
+
+
+
+# STEP 1
+
+### Go to project directory and publish
+
+* go into your app directory
+* go into the exp.json file of your project, then add a slug like "myslug" (The  full slug will be automatically generated, so just put the very last word of the slug such as "myslug" which will be output as exp.host/@notbrent/myslug:)
+```
+  "slug": "rnplay"
+```
+* make sure your terminal is in the root directory of your app directory, then run `exp start`
+* that will show a QR code, etc. and you'll see "[exp] Dependency graph loaded.". This means you're done, hit ctrl + C to stop packager
+
+
+# STEP 2
+
+### Decide on a iOS config
+This is set in the exp.json file.
+
+```
+  "ios": {
+    "bundleIdentifier": "identifier",
+    "buildNumber": "1.0.0",
+  }
+```
+
+# STEP 3
+
+### Define a Scheme
+The scheme is used for things like deep-linking. It is defined in your exp.json file.
+
+```
+  "scheme": "myrnapp"
+```
+
+
+# STEP 4
+
+
+
 
 
 * build your app by doing this command from teh project root: ```exp build:status```
