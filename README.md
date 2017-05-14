@@ -18,6 +18,7 @@
   "slug": "rnplay"
 ```
 * make sure your terminal is in the root directory of your app directory, then run `exp start`
+* that will show a QR code, etc. and you'll see "[exp] Dependency graph loaded.". This means you're done, hit ctrl + C to stop packager
 
 
 ## STEP 2
