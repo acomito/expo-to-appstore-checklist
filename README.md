@@ -155,6 +155,8 @@ when it is done, you'll see this message and the packager/process will exit/end:
 ### Waiting for IPA file to download...
 
 * run `exp build:status` to check on status. keep doing this until eventually it will return the URL
+* copy paste that URL into your browser, it should automatically download the ipa file
+* this file is what you will upload to the apple store
 
 
 ### Test it on fastlane's pilot [SECTION UNDER CONSTRUCTION, MOVE TO NEXT]:
@@ -255,5 +257,7 @@ Note: When submitting to the iTunes Store, you’ll be asked whether your app us
 
 * now, if you have not yet, download Apple's [Application Loader 3.0](https://itunesconnect.apple.com/apploader/ApplicationLoader_3.0.dmg)
 * after downloading, open the app and sign in with your apple username and password
+* choose "deliver app" from the options then click "next"
+* a file picker will open, find you ipa file that you built earlier (via your terminal, in my case the ipa is no in my downloads)
 
 BASED ON: https://github.com/alex-wap/app-store
