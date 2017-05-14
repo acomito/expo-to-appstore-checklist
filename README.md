@@ -12,7 +12,7 @@
 ### Go to project directory and publish
 
 * go into your app directory
-* go into the exp.json file of your project and put in a slug like "myslug" (The  full slug will be automatically generated, so just put the very last word of the slug such as "myslug" which will be output as exp.host/@notbrent/myslug:)
+* go into the exp.json file of your project, then add a slug like "myslug" (The  full slug will be automatically generated, so just put the very last word of the slug such as "myslug" which will be output as exp.host/@notbrent/myslug:)
 ```
   "slug": "rnplay"
 ```
@@ -20,6 +20,7 @@
 * once that is complete, grab the slug and put it into your exp.json file
 
 
+## STEP 2
 
 ### Decide on a iOS config
 This is set in the exp.json file.
@@ -31,12 +32,17 @@ This is set in the exp.json file.
   }
 ```
 
+## STEP 3
+
 ### Define a Scheme
 The scheme is used for things like deep-linking. It is defined in your exp.json file.
 
 ```
   "scheme": "myrnapp"
 ```
+
+
+## STEP 4
 
 ### Gather Icons for Expo
 
