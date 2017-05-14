@@ -230,6 +230,8 @@ https://developer.apple.com/app-store/product-page/
 * SKU is a unique ID (you pick it). e.g. NameOfApp0.1
 * Click Create
 
+Note: When submitting to the iTunes Store, you’ll be asked whether your app uses the advertising identifier (IDFA). Because Expo depends on Segment Analytics, the answer is yes, and you’ll need to check a couple boxes on the Apple submission form. See Segment’s Guide for which specific boxes to fill in.
+
 
 ### iOS App 1.0 Prepare for Submission
 
