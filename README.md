@@ -102,9 +102,33 @@ Maybe use https://itunes.apple.com/us/app/prepo/id476533227?mt=12
 ### Gather Sceenshots for  App Store
 
 Screenshots. You can generate these using the Simulator and Command+S to take a screenshot. You must use Window > Scale > 100% (Command+1)
+
 * REQUIRED one iPad Pro screenshot.
 * REQUIRED one iPhone 7 Plus screenshot.
 * These are the highest resolutions for iPad and iPhone.
+
+
+* build your app by doing this command from teh project root: ```exp build:status```
+```
+We need your Apple ID/password to manage certificates and provisioning profiles from your Apple Developer account.
+? What's your Apple ID?
+```
+
+```
+? Do you already have a distribution certificate you'd like us to use,
+or do you want us to manage your certificates for you? true
+```
+
+hit 1 for yes
+
+```
+? Do you already have a push notification certificate you'd like us to use,
+or do you want us to manage your push certificates for you? true
+```
+
+hit 1 for yes
+
+Then it will start to build your ipa file
 
 ### Waiting for IPA file to download...
 
