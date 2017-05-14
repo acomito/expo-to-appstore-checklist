@@ -249,7 +249,7 @@ https://developer.apple.com/app-store/product-page/
 
 ### General App Information section
 
-* App Icon > Choose File > Your 1024x1024px icon from prerequisite section.
+* App Icon > Choose File > Your 1024x1024px icon from prerequisite section. MAKE SURE YOU UPLOAD JPG NOT PNG FOR THIS ICON
 * Click edit next to "Rating". Fill out questionnaire. Be careful, it's easier to get approved if you don't select "Made For Kids". Click Done.
 * Copyright (your business name) required.
 * Address information is required.
