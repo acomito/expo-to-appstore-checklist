@@ -265,5 +265,14 @@ Note: When submitting to the iTunes Store, you’ll be asked whether your app us
 
 https://segment.com/docs/sources/mobile/ios/quickstart/#step-5-submitting-to-the-app-store
 
+Congratulations! You have submitted your app for review.
+
+App is now "Waiting For Review".
+The next stages are:
+"Preparing for Review"
+"Going in Review"
+"Accepted" or "Rejected"
+You will receive an email for your app's approval, but it is good to check it yourself in iTunes Connect.
+
 
 BASED ON: https://github.com/alex-wap/app-store
