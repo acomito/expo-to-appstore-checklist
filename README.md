@@ -44,7 +44,7 @@ Maybe use https://itunes.apple.com/us/app/prepo/id476533227?mt=12
 
 ### Gather Sceenshots for  App Store
 
-Screenshots. You can generate these using the Simulator and Command+S to take a screenshot. You must use Window > Scale > 100% (Command+1)
+Screenshots. You can generate these using the Simulator and Command+S to take a screenshot. You must use Window > Scale > 100% (Command+1) https://stackoverflow.com/questions/7092613/take-screenshots-in-the-ios-simulator
 
 * REQUIRED one iPad Pro screenshot.
 * REQUIRED one iPhone 7 Plus screenshot.
