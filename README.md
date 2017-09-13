@@ -8,10 +8,12 @@ TODO
 * Finish fastlane steps
 
 
+
 ## PREQUESISITES
 
-* you need your apple teamID --> [get it here](https://developer.apple.com/account/#/membership)
-* you need your apple username and apple password. --> Or signup [here](https://developer.apple.com/register)
+
+* you need an apple username and apple password. --> Or signup [here](https://developer.apple.com/register)
+* you need your apple teamID --> [get it here under the membership tab in the developer section](https://developer.apple.com/account/#/membership)
 * you need to turn off 2-factor authentication.  --> see [this issue](https://github.com/expo/expo/issues/160)
 * decide on a bundleIdentifier.  --> see [this stackoverflow question](http://stackoverflow.com/questions/11347470/what-does-bundle-identifier-mean-in-the-ios-project)
 
@@ -113,10 +115,11 @@ The scheme is used for things like deep-linking. It is defined in your exp.json 
   "scheme": "myrnapp"
 ```
 
+### Scheme vs. Slug?
+They seem like virtually the same thing. What are the differences?
+
 
 # STEP 4
-
-
 
 
 
