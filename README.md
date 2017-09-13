@@ -163,12 +163,16 @@ when it is done, you'll see this message and the packager/process will exit/end:
 * this file is what you will upload to the apple store
 
 
+# STEP 5
 
-### General TODOs
+### General TODOs before doing iTunes Connect stuff
 
 Decide on app description, keywords, title and categories:
 
 https://developer.apple.com/app-store/product-page/
+
+
+# STEP 6
 
 ### iTunes Connect
 
