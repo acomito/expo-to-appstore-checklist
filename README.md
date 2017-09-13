@@ -90,7 +90,7 @@ and the 512x512 is on a top-level json property called icon:
 ```
   "slug": "rnplay"
 ```
-* make sure your terminal is in the root directory of your app directory, then run `exp start`
+* make sure your terminal is in the root directory of your app directory, then run `exp start` (or publish via expo GUI)
 * that will show a QR code, etc. and you'll see "[exp] Dependency graph loaded.". This means you're done, hit ctrl + C to stop packager
 
 
@@ -122,8 +122,8 @@ They seem like virtually the same thing. What are the differences?
 # STEP 4
 
 
+* build your app by doing this command from teh project root: `exp build:ios`
 
-* build your app by doing this command from teh project root: ```exp build:status```
 ```
 We need your Apple ID/password to manage certificates and provisioning profiles from your Apple Developer account.
 ? What's your Apple ID?
@@ -136,14 +136,14 @@ Put in your credentials for your apple developer account. [Make sure 2factor aut
 or do you want us to manage your certificates for you? true
 ```
 
-hit 1 for yes
+hit 1 to let Expo handle our certificates
 
 ```
 ? Do you already have a push notification certificate you'd like us to use,
 or do you want us to manage your push certificates for you? true
 ```
 
-hit 1 for yes
+hit 1 to let Expo handle our certificates
 
 Then it will start to build your ipa file
 
@@ -153,6 +153,7 @@ when it is done, you'll see this message and the packager/process will exit/end:
 [exp] Building...
 [exp] Build successfully started, it may take a few minutes to complete. Run "exp build:status" to monitor it.
 ```
+* check on the status with: ```exp build:status```
 
 
 ### Waiting for IPA file to download...
