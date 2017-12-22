@@ -209,15 +209,33 @@ https://developer.apple.com/app-store/product-page/
 * now, if you have not yet, download Apple's [Application Loader 3.0](https://itunesconnect.apple.com/apploader/ApplicationLoader_3.0.dmg)
 * if you have problems with it, you may need to download xcode, then open xcode, the go to Xcode > developer settings > applications > application loader (this will be application loader 3.6). See: https://forums.developer.apple.com/thread/64041
 * either way, 3.6 or 3.0, you will go through the wizard and upload your IPA file.
-* after downloading, open the app and sign in with your apple username and password
+* after downloading apploader or xcode, open app loader and sign in with your apple username and password
 * choose "deliver app" from the options then click "next"
 * a file picker will open, find you ipa file that you built earlier (via your terminal, in my case the ipa is no in my downloads)
 
 Is your app designed to use cryptography or does it contain or incorporate cryptography? (Select Yes even if your app is only utilizing the encryption available in iOS or macOS.)
 
+Once you select, yes, another question pops up like: 
+
+"Does your app meet any of the following:
+(a) Qualifies for one or more exemptions provided under category 5 part 2
+(b) Use of encryption is limited to encryption within the operating system (iOS or macOS)
+(c) Only makes call(s) over HTTPS
+(d) App is made available only in the U.S. and/or Canada"
+
+All my apps are typically a "Yes" here (I'm sure 89% are), but you should maybe take a minute to access your specific app.
+
+"Does your app contain, display, or access third-party content?"
+
+- I typically answer yes for most of my apps. I think in this sense they mean social networks (where people other than yourself post content). 
+
 Note: When submitting to the iTunes Store, you’ll be asked whether your app uses the advertising identifier (IDFA). Because Expo depends on Segment Analytics, the answer is yes, and you’ll need to check a couple boxes on the Apple submission form. See Segment’s Guide for which specific boxes to fill in.
 
 https://segment.com/docs/sources/mobile/ios/quickstart/#step-5-submitting-to-the-app-store
+
+Last I checked, you will mark:
+
+
 
 Congratulations! You have submitted your app for review. Drink two beers.
 
