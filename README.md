@@ -207,6 +207,8 @@ https://developer.apple.com/app-store/product-page/
 * Address information is required.
 
 * now, if you have not yet, download Apple's [Application Loader 3.0](https://itunesconnect.apple.com/apploader/ApplicationLoader_3.0.dmg)
+* if you have problems with it, you may need to download xcode, then open xcode, the go to Xcode > developer settings > applications > application loader (this will be application loader 3.6). See: https://forums.developer.apple.com/thread/64041
+* either way, 3.6 or 3.0, you will go through the wizard and upload your IPA file.
 * after downloading, open the app and sign in with your apple username and password
 * choose "deliver app" from the options then click "next"
 * a file picker will open, find you ipa file that you built earlier (via your terminal, in my case the ipa is no in my downloads)
@@ -217,7 +219,7 @@ Note: When submitting to the iTunes Store, you’ll be asked whether your app us
 
 https://segment.com/docs/sources/mobile/ios/quickstart/#step-5-submitting-to-the-app-store
 
-Congratulations! You have submitted your app for review.
+Congratulations! You have submitted your app for review. Drink two beers.
 
 App is now "Waiting For Review".
 The next stages are:
