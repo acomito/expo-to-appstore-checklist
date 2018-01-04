@@ -19,6 +19,8 @@ TODO
 
 ### Gather Icons for App Store
 
+note: The png for the app-icon MUST NOT contain alpha channels or transparencies
+
 #### iPhone
 * 180px × 180px (60pt × 60pt @3x)
 * 120px × 120px (60pt × 60pt @2x)
