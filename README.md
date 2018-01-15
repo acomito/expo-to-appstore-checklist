@@ -225,7 +225,7 @@ Once you select, yes, another question pops up like:
 (c) Only makes call(s) over HTTPS
 (d) App is made available only in the U.S. and/or Canada"
 
-All my apps are typically a "Yes" here (I'm sure 89% are), but you should maybe take a minute to access your specific app.
+All my apps are typically a "Yes" here (I'm sure 89% are), but you should maybe take a minute to assess your specific app.
 
 "Does your app contain, display, or access third-party content?"
 
