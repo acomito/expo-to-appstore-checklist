@@ -7,7 +7,7 @@ TODO
 * make a not about SKU
 * Finish fastlane steps
 
-
+## PULL REQUESTS WELCOME
 
 ## PREQUESISITES
 
