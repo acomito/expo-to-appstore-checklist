@@ -14,7 +14,7 @@ TODO
 
 * you need an apple username and apple password. --> Or signup [here](https://developer.apple.com/register)
 * you need your apple teamID --> [get it here under the membership tab in the developer section](https://developer.apple.com/account/#/membership)
-* you need to turn off 2-factor authentication.  --> see [this issue](https://github.com/expo/expo/issues/160) and [see this](https://security.stackexchange.com/questions/41939/two-step-vs-two-factor-authentication-is-there-a-difference)
+* for expo < 46.0.5, you need to turn off 2-factor authentication.  --> see [this issue](https://github.com/expo/expo/issues/160) and [see this](https://security.stackexchange.com/questions/41939/two-step-vs-two-factor-authentication-is-there-a-difference). For expo >= 46.0.5 you can try the --local-auth flag (currently in beta): `exp build:ios --local-auth`.  --> see [this comment](https://github.com/expo/expo/issues/160#issuecomment-348375652)
 * decide on a bundleIdentifier.  --> see [this stackoverflow question](http://stackoverflow.com/questions/11347470/what-does-bundle-identifier-mean-in-the-ios-project)
 
 ### Gather Icons for App Store
