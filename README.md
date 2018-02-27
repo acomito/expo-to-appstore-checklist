@@ -249,4 +249,8 @@ The next stages are:
 You will receive an email for your app's approval, but it is good to check it yourself in iTunes Connect.
 
 
+
+Interested in HARD MODE? Checkout this blog post for setting up FastLane with expo: https://blog.expo.io/automating-standalone-expo-app-builds-and-deployments-with-fastlane-exp-and-exptool-9b2f5ad0a2cd
+
+
 BASED ON: https://github.com/alex-wap/app-store
