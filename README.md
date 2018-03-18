@@ -6,7 +6,8 @@
 
 ## PREQUESISITES
 
-
+* To have your app show up under an organization name (e.g. "Trump Apps"), and not your personal name (e.g. "Donald Trump"), be sure to setup an organization account with apple rather than an individual account. You will need a DUNS number, so heads up.
+* If you already have an account, you can switch your account to a organization account, but you'll have to reach out to apple. Good luck.
 * you need an apple username and apple password. --> Or signup [here](https://developer.apple.com/register)
 * you need your apple teamID --> [get it here under the membership tab in the developer section](https://developer.apple.com/account/#/membership)
 * for expo < 46.0.5, you need to turn off 2-factor authentication.  --> see [this issue](https://github.com/expo/expo/issues/160) and [see this](https://security.stackexchange.com/questions/41939/two-step-vs-two-factor-authentication-is-there-a-difference). For expo >= 46.0.5 you can try the --local-auth flag (currently in beta): `exp build:ios --local-auth`.  --> see [this comment](https://github.com/expo/expo/issues/160#issuecomment-348375652)
@@ -68,15 +69,16 @@ and the 512x512 is on a top-level json property called icon:
  "icon": "./assets/pathToFile.png", // Must be a .png.
 ```
 
-### Configure Splash/Loading Screen
+### Configure Splash Screen
+
+https://docs.expo.io/versions/latest/guides/splash-screens.html
 
 ```
-  "loading": {
-    "icon": "./assets/pathToFile.png", // Must be a .png.
-    "backgroundColor": "#34495e",
-  }
+"splash": {
+  "image": "./assets/splash.png"
+}
 ```
-
+Note, the previous loading screen API is essentially depricated [(source)](https://docs.expo.io/versions/latest/guides/splash-screens.html#migrating-from-the).
 
 
 # STEP 1
@@ -165,9 +167,16 @@ when it is done, you'll see this message and the packager/process will exit/end:
 
 ### General TODOs before doing iTunes Connect stuff
 
-Decide on app description, keywords, title and categories:
+Decide on:
 
-https://developer.apple.com/app-store/product-page/
+- app description, 
+- keywords, 
+- title, 
+- and categories
+
+see: https://developer.apple.com/app-store/product-page/
+
+For an example of the pros at work, take a look at instagram or offerup and how they've setup their app store page. Note the title is not always the vanilla app title, and they add additional artwork beyond screenshots.
 
 
 # STEP 6
@@ -183,7 +192,6 @@ https://developer.apple.com/app-store/product-page/
 * Select your Bundle ID.
 * SKU is a unique ID (you pick it). e.g. NameOfApp0.1
 * Click Create
-
 
 
 ### iOS App 1.0 Prepare for Submission
