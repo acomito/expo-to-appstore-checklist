@@ -243,14 +243,18 @@ Congratulations! You have submitted your app for review. Drink two beers.
 
 App is now "Waiting For Review".
 The next stages are:
-"Preparing for Review"
-"Going in Review"
-"Accepted" or "Rejected"
+- "Preparing for Review"
+- "Going in Review"
+- "Accepted" or "Rejected"
+
 You will receive an email for your app's approval, but it is good to check it yourself in iTunes Connect.
 
+Wondering about how OTA updates work with your expo app? See: https://docs.expo.io/versions/latest/guides/offline-support.html
 
 
 Interested in HARD MODE? Checkout this blog post for setting up FastLane with expo: https://blog.expo.io/automating-standalone-expo-app-builds-and-deployments-with-fastlane-exp-and-exptool-9b2f5ad0a2cd
 
+## SOURCES
 
-BASED ON: https://github.com/alex-wap/app-store
+- https://docs.expo.io/versions/latest/guides/building-standalone-apps.html
+- https://github.com/alex-wap/app-store
