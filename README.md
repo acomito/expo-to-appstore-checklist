@@ -249,10 +249,12 @@ The next stages are:
 
 You will receive an email for your app's approval, but it is good to check it yourself in iTunes Connect.
 
-Wondering about how OTA updates work with your expo app? See: https://docs.expo.io/versions/latest/guides/offline-support.html
 
+## FURTHER READING
 
-Interested in HARD MODE? Checkout this blog post for setting up FastLane with expo: https://blog.expo.io/automating-standalone-expo-app-builds-and-deployments-with-fastlane-exp-and-exptool-9b2f5ad0a2cd
+- Wondering how to handle dev vs staging vs production? See [this](https://docs.expo.io/versions/latest/guides/release-channels.html)
+- Wondering about how OTA updates work with your expo app? See [this](https://docs.expo.io/versions/latest/guides/offline-support.html)
+- Interested in HARD MODE? Checkout [this blog post](https://blog.expo.io/automating-standalone-expo-app-builds-and-deployments-with-fastlane-exp-and-exptool-9b2f5ad0a2cd) for setting up FastLane with expo.
 
 ## SOURCES
 
