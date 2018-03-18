@@ -6,7 +6,7 @@
 
 ## PREQUESISITES
 
-* To have your app show up under an organization name (e.g. "Trump Apps"), and not your personal name (e.g. "Donald Trump"), be sure to setup an organization account with apple rather than an individual account. You will need a DUNS number, so heads up.
+* To have your app show up under an organization name (e.g. "Trump Apps"), and not your personal name (e.g. "Donald Trump"), be sure to setup an organization account with apple rather than an individual account. You will need a [DUNS number](http://www.dnb.com/duns-number.html), so heads up.
 * If you already have an account, you can switch your account to a organization account, but you'll have to reach out to apple. Good luck.
 * you need an apple username and apple password. --> Or signup [here](https://developer.apple.com/register)
 * you need your apple teamID --> [get it here under the membership tab in the developer section](https://developer.apple.com/account/#/membership)
