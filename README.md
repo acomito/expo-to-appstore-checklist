@@ -1,13 +1,8 @@
 # Expo-to-App-Store Checklist
 
-TODO
 
+## NOTE: I WANT TO IMPROVE THIS. PULL REQUESTS WELCOME!
 
-* add directions about adding bundleIdentifer in dev console before going to itunes connect
-* make a not about SKU
-* Finish fastlane steps
-
-## PULL REQUESTS WELCOME
 
 ## PREQUESISITES
 
@@ -16,6 +11,7 @@ TODO
 * you need your apple teamID --> [get it here under the membership tab in the developer section](https://developer.apple.com/account/#/membership)
 * for expo < 46.0.5, you need to turn off 2-factor authentication.  --> see [this issue](https://github.com/expo/expo/issues/160) and [see this](https://security.stackexchange.com/questions/41939/two-step-vs-two-factor-authentication-is-there-a-difference). For expo >= 46.0.5 you can try the --local-auth flag (currently in beta): `exp build:ios --local-auth`.  --> see [this comment](https://github.com/expo/expo/issues/160#issuecomment-348375652)
 * decide on a bundleIdentifier.  --> see [this stackoverflow question](http://stackoverflow.com/questions/11347470/what-does-bundle-identifier-mean-in-the-ios-project)
+* Make sure you've setup reasonable permissions dialogue text: https://docs.expo.io/versions/latest/guides/app-stores.html#system-permissions-dialogs-on-ios
 
 ### Gather Icons for App Store
 
@@ -253,6 +249,7 @@ You will receive an email for your app's approval, but it is good to check it yo
 ## FURTHER READING
 
 - Wondering how to handle dev vs staging vs production? See [this](https://docs.expo.io/versions/latest/guides/release-channels.html)
+- Looking to get some kind of circleCI build process going? see [this recent post](https://blog.expo.io/new-automation-features-in-expo-cli-7a901afcc1bc) from the expo blog.
 - Wondering about how OTA updates work with your expo app? See [this](https://docs.expo.io/versions/latest/guides/offline-support.html)
 - Interested in HARD MODE? Checkout [this blog post](https://blog.expo.io/automating-standalone-expo-app-builds-and-deployments-with-fastlane-exp-and-exptool-9b2f5ad0a2cd) for setting up FastLane with expo.
 
@@ -260,3 +257,10 @@ You will receive an email for your app's approval, but it is good to check it yo
 
 - https://docs.expo.io/versions/latest/guides/building-standalone-apps.html
 - https://github.com/alex-wap/app-store
+
+
+## TODO
+
+* add directions about adding bundleIdentifer in dev console before going to itunes connect
+* make a not about SKU
+* Finish fastlane steps
