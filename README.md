@@ -4,7 +4,7 @@
 ## NOTE: I WANT TO IMPROVE THIS. PULL REQUESTS WELCOME!
 
 
-## PREQUESISITES
+## PREREQUISITES
 
 * To have your app show up under an organization name (e.g. "Trump Apps"), and not your personal name (e.g. "Donald Trump"), be sure to setup an organization account with apple rather than an individual account. You will need a [DUNS number](http://www.dnb.com/duns-number.html), so heads up.
 * If you already have an account, you can switch your account to a organization account, but you'll have to reach out to apple. Good luck.
@@ -21,18 +21,10 @@ note: The png for the app-icon MUST NOT contain alpha channels or transparencies
 #### iPhone
 * 180px × 180px (60pt × 60pt @3x)
 * 120px × 120px (60pt × 60pt @2x)
-* 120px × 120px (40pt × 40pt @3x)
-* 80px × 80px (40pt × 40pt @2x)
-* 87px × 87px (29pt × 29pt @3x)
-* 58px × 58px (29pt × 29pt @2x)
-* 60px × 60px (20pt × 20pt @3x)
-* 40px × 40px (20pt × 20pt @2x)
 #### iPad Pro
 * 167px × 167px (83.5pt × 83.5pt @2x)
-* 80px × 80px (40pt × 40pt @2x)
 #### iPad, iPad mini
 * 152px × 152px (76pt × 76pt @2x)
-* 40px × 40px (20pt × 20pt @2x)
 #### App Store
 * 1024px × 1024px
 
@@ -78,7 +70,7 @@ https://docs.expo.io/versions/latest/guides/splash-screens.html
   "image": "./assets/splash.png"
 }
 ```
-Note, the previous loading screen API is essentially depricated [(source)](https://docs.expo.io/versions/latest/guides/splash-screens.html#migrating-from-the).
+Note, the previous loading screen API is essentially deprecated [(source)](https://docs.expo.io/versions/latest/guides/splash-screens.html#migrating-from-the).
 
 
 # STEP 1
@@ -122,14 +114,14 @@ They seem like virtually the same thing. What are the differences?
 # STEP 4
 
 
-* build your app by doing this command from teh project root: `exp build:ios`
+* build your app by doing this command from the project root: `exp build:ios`
 
 ```
 We need your Apple ID/password to manage certificates and provisioning profiles from your Apple Developer account.
 ? What's your Apple ID?
 ```
 
-Put in your credentials for your apple developer account. [Make sure 2factor auth is turend off](https://github.com/expo/expo/issues/160)
+Put in your credentials for your apple developer account. [Make sure 2factor auth is turned off](https://github.com/expo/expo/issues/160)
 
 ```
 ? Do you already have a distribution certificate you'd like us to use,
@@ -176,7 +168,7 @@ Decide on:
 
 see: https://developer.apple.com/app-store/product-page/
 
-For an example of the pros at work, take a look at instagram or offerup and how they've setup their app store page. Note the title is not always the vanilla app title, and they add additional artwork beyond screenshots.
+For an example of the pros at work, take a look at [instagram](https://itunes.apple.com/gb/developer/instagram-inc/id389801255?mt=8) or [offerup](https://itunes.apple.com/us/app/offerup-buy-sell-simple/id468996152?mt=8) and how they've setup their app store page. Note the title is not always the vanilla app title, and they add additional artwork beyond screenshots.
 
 
 # STEP 6
