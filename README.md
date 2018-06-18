@@ -16,6 +16,8 @@
 
 ### Gather Icons for App Store
 
+Here is a good resource: https://developer.telerik.com/topics/mobile-development/your-guide-to-app-store-images/
+
 note: The png for the app-icon MUST NOT contain alpha channels or transparencies
 
 #### iPhone
