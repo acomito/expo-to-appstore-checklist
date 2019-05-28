@@ -250,7 +250,7 @@ You will receive an email for your app's approval, but it is good to check it yo
 
 ## FURTHER READING
 
-- Wondering how to handle dev vs staging vs production? See [this](https://docs.expo.io/versions/latest/guides/release-channels.html)
+- Wondering how to handle dev vs staging vs production? See [expo release channels documentation](https://docs.expo.io/versions/latest/distribution/release-channels/#__next)
 - Looking to get some kind of circleCI build process going? see [this recent post](https://blog.expo.io/new-automation-features-in-expo-cli-7a901afcc1bc) from the expo blog.
 - Wondering about how OTA updates work with your expo app? See [this](https://docs.expo.io/versions/latest/guides/offline-support.html)
 - Interested in HARD MODE? Checkout [this blog post](https://blog.expo.io/automating-standalone-expo-app-builds-and-deployments-with-fastlane-exp-and-exptool-9b2f5ad0a2cd) for setting up FastLane with expo.
