@@ -100,6 +100,8 @@ This is set in the exp.json file.
   }
 ```
 
+* Keep in mind you may want to start with an earlier initial buildNumber such as 0.0.1, so when you launch you get the coveted 1.0.0
+
 # STEP 3
 
 ### Define a Scheme
